@@ -245,20 +245,3 @@ func TestExamplePlugin(t *testing.T) {
     }
 }
 ```
-
-### Contributing
-To contribute a new plugin:
-1. Fork the repository
-2. Create your plugin following the interface
-3. Add tests
-4. Submit a pull request
-
-### Support
-For questions or issues:
-- Create an issue in the repository
-- Contact the development team
-- Check the documentation
-
-This documentation provides a comprehensive overview of the plugin system. For specific implementation details or additional examples, please refer to the codebase or contact the development team.
-
-Would you like me to elaborate on any specific section or add more examples?
