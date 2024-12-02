@@ -1,4 +1,4 @@
-#Clean and straightforward architecture for the plugin manager
+# Clean and straightforward architecture for the plugin manager
 
 ```go
 package plugin
