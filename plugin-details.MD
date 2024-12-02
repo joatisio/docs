@@ -1,3 +1,6 @@
+#Clean and straightforward architecture for the plugin manager
+
+```go
 package plugin
 
 import (
@@ -188,3 +191,19 @@ func main() {
         log.Printf("Error executing hooks: %v", err)
     }
 }
+```
+
+This architecture provides:
+
+1. **Simple Plugin Interface**: Clear contract for what a plugin must implement
+2. **Safe Hook Execution**: Hooks are executed with timeout and panic recovery
+3. **Thread Safety**: All operations are protected by mutexes
+4. **Clean Separation**: Plugins are isolated from core system
+5. **Easy Extension**: New hooks can be added without changing the core system
+
+Key Features:
+- Plugin lifecycle management (initialize, start, stop)
+- Hook registration and execution
+- Safe execution with timeout and panic recovery
+- Thread-safe operations
+- Simple and clear interfaces
